@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wallpaper
+        xmlns:android="http://schemas.android.com/apk/res/android"  
+        android:thumbnail="@mipmap/ic_launcher"
+        android:settingsActivity="com.themejunky.flavorstheme.lwp.Settings"
+        />
+ <!-- android:settingsActivity="com.lwp.falling.Settings" -->

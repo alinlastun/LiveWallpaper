@@ -1,0 +1,58 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+    defaultConfig {
+        applicationId "com.livewallpapers"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+        signingConfigs {
+        spe {
+            Properties props = new Properties()
+            props.load(new FileInputStream(file("../keystore/special.properties")))
+            storeFile file(props['key.store'])
+            storePassword props['key.store.password']
+            keyAlias props['key.alias']
+            keyPassword props['key.alias.password']
+        }
+    }
+    productFlavors {
+
+        redhearts {
+            applicationId "com.livewallpaper.redhearts"
+            versionCode rootProject.ext.themeVersionCode
+            versionName rootProject.ext.themeVersionName
+            signingConfig signingConfigs.spe
+            flavorDimensions "default"
+
+        }
+
+    }
+}
+
+
+
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    implementation project(':andengine')
+    implementation project(':andengine_box2d')
+    implementation project(':andenginelivewallpaperextension')
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:h3nr1ke="http://schemas.android.com/apk/res/com.lwp.falling"
+    android:key="wallpaper_settings"
+    >
+
+    <PreferenceCategory
+        android:orderingFromXml="true"
+        android:persistent="true"
+        
+        android:title="@string/object_selection_category" >
+        
+          <!--SETTINGS FOR OBJECT TO PLACE -->
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/objects_toPlace"
+            android:entryValues="@array/objects_toPlace_values"
+            android:key="Object_selection"
+            android:summary="@string/object_desc"
+            android:title="@string/object_selection_type"
+             />
+        
+          <!--SELECT FALLING DIRECTION -->
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/falling_direction"
+            android:entryValues="@array/falling_direction_values"
+            android:key="falling_direction"
+            android:summary="@string/rotation_direction_desc"
+            android:title="@string/set_direction" />
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory
+        android:orderingFromXml="true"
+        android:persistent="true"
+        android:title="@string/object_category" >
+        
+            <!--SELECT OBJECT SIZE -->
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/object_size_option"
+            android:entryValues="@array/object_size_value"
+            android:key="object_size_selection"
+            android:summary="@string/rotation_direction_desc"
+            android:title="@string/object_size" />
+        
+               <!--ACCELEROMETER SETTING -->
+        <ListPreference
+            android:defaultValue="1"
+            android:entries="@array/accelerometer_option"
+            android:entryValues="@array/accelerometer_option_values"
+            android:key="accelerometer_on_off"
+            android:summary="@string/rotation_direction_desc"
+            android:title="@string/background_change_shake" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

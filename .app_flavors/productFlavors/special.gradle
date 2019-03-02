@@ -1,0 +1,19 @@
+
+// user:  specialkeythemes@gmail.com  pass : Lexus450h
+
+
+/*
+
+<meta-data
+android:name="io.fabric.ApiKey"
+android:value="8215c11c125f171760ddb0dadc87c228b901d479" />
+*/
+
+
+spe_rosegold_keyboardplus {
+    applicationId "com.keyboard.plus.special.rosegold"
+    versionCode rootProject.ext.themeVersionCode
+    versionName rootProject.ext.themeVersionName
+    signingConfig signingConfigs.spe
+    playAccountConfig = playAccountConfigs.SpecialAccountConfig
+}

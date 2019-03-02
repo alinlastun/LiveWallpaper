@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- created with http://www.physicseditor.de -->
+<bodydef version="1.0">
+    <bodies numBodies="1">
+
+        <body name="3(1)" dynamic="true" numFixtures="1">
+
+            <fixture
+                density="2"
+                friction="0"
+                restitution="0"
+                filter_categoryBits="1"
+                filter_groupIndex="0"
+                filter_maskBits="65535"
+                isSensor="false"
+                type="POLYGON"
+                numPolygons="8"
+                >
+
+
+                <polygon numVertexes="4">
+
+                    <vertex x="-18.0000" y="-38.0000" />
+
+                    <vertex x="20.0000" y="-35.0000" />
+
+                    <vertex x="-23.0000" y="-34.0000" />
+
+                    <vertex x="-20.0000" y="-38.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="8">
+
+                    <vertex x="45.0000" y="34.0000" />
+
+                    <vertex x="38.0000" y="41.0000" />
+
+                    <vertex x="31.0000" y="45.0000" />
+
+                    <vertex x="3.0000" y="43.0000" />
+
+                    <vertex x="22.0000" y="-35.0000" />
+
+                    <vertex x="43.0000" y="-14.0000" />
+
+                    <vertex x="50.0000" y="1.0000" />
+
+                    <vertex x="51.0000" y="20.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="8">
+
+                    <vertex x="-46.0000" y="33.0000" />
+
+                    <vertex x="-51.0000" y="21.0000" />
+
+                    <vertex x="-51.0000" y="2.0000" />
+
+                    <vertex x="-41.0000" y="-16.0000" />
+
+                    <vertex x="-4.0000" y="45.0000" />
+
+                    <vertex x="-15.0000" y="48.0000" />
+
+                    <vertex x="-28.0000" y="47.0000" />
+
+                    <vertex x="-38.0000" y="42.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="4">
+
+                    <vertex x="3.0000" y="43.0000" />
+
+                    <vertex x="31.0000" y="45.0000" />
+
+                    <vertex x="24.0000" y="47.0000" />
+
+                    <vertex x="14.0000" y="47.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="6">
+
+                    <vertex x="2.0000" y="-48.0000" />
+
+                    <vertex x="13.0000" y="-42.0000" />
+
+                    <vertex x="20.0000" y="-35.0000" />
+
+                    <vertex x="-18.0000" y="-38.0000" />
+
+                    <vertex x="-10.0000" y="-45.0000" />
+
+                    <vertex x="-3.0000" y="-48.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="3">
+
+                    <vertex x="-41.0000" y="-16.0000" />
+
+                    <vertex x="-51.0000" y="2.0000" />
+
+                    <vertex x="-47.0000" y="-9.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="4">
+
+                    <vertex x="-2.0000" y="43.0000" />
+
+                    <vertex x="-23.0000" y="-34.0000" />
+
+                    <vertex x="22.0000" y="-35.0000" />
+
+                    <vertex x="3.0000" y="43.0000" />
+
+                </polygon>
+
+                <polygon numVertexes="6">
+
+                    <vertex x="-25.0000" y="-34.0000" />
+
+                    <vertex x="-23.0000" y="-34.0000" />
+
+                    <vertex x="-2.0000" y="43.0000" />
+
+                    <vertex x="-4.0000" y="45.0000" />
+
+                    <vertex x="-41.0000" y="-16.0000" />
+
+                    <vertex x="-41.0000" y="-18.0000" />
+
+                </polygon>
+
+
+            </fixture>
+
+        </body>
+
+    </bodies>
+    <metadata>
+        <format>1</format>
+        <ptm_ratio></ptm_ratio>
+    </metadata>
+</bodydef>

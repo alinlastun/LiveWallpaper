@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LiveWallpapers</string>
+
+    <!--lwp-->
+    <string name="object_size">Object Size</string>
+    <string name="object_category">Object Settings</string>
+    <string name="background_change_shake">Accelerometer</string>
+    <string name="object_desc">Select Object to Place</string>
+    <string name="object_selection_category">Object Selection</string>
+    <string name="object_selection_type">Objects</string>
+    <string name="rotation_direction_desc">Select Background</string>
+    <string name="set_direction">Set Falling Direction</string>
+    <string name="settings">Change Settings</string>
+</resources>

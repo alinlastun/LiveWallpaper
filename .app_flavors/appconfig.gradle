@@ -1,0 +1,4 @@
+SpecialAccountConfig {
+    serviceAccountEmail = 'specialkeythemes@api-7472972188496709142-112513.iam.gserviceaccount.com'
+    pk12File = file('../p12keys/GooglePlayAndroidDeveloper-da6f2c7654ad.p12')
+}
